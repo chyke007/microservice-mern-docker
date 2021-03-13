@@ -1,5 +1,5 @@
 {
-  "name": "listings-service",
+  "name": "users-service",
   "version": "1.0.0",
   "description": "",
   "main": "babel.config.js",
