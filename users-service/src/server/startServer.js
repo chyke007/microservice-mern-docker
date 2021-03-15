@@ -13,5 +13,5 @@ app.use(cors({
 }))
 
 app.listen(PORT, "0.0.0.0", () => {
-    console.log(`Listings service listening on ${PORT}`)
+    console.info(`Listings service listening on ${PORT}`)
 })
