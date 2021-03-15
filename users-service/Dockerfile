@@ -5,4 +5,4 @@ COPY . /opt/app
 WORKDIR /opt/app
 
 RUN npm i
-CMD npm watch
+CMD npm run watch
