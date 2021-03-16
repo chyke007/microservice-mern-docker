@@ -1,4 +1,5 @@
 import * as Query from "./Query"
+import * as Mutation from "./Mutation"
 
-const resolvers  = { Query } 
+const resolvers  = { Mutation, Query } 
 export default resolvers;

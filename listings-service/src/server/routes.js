@@ -4,7 +4,7 @@ const setupRoutes = app => {
     //
     app.get("/listings", async (req,res,next) => {
         const listings = await Listing.findAll();
-        return res.json({ listings })
+        return res.json(listings)
     })
 
 }
